@@ -1,0 +1,32 @@
+[project]
+name = "back-blog"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "", email = ""},
+]
+dependencies = [
+    "django>=5.0.6",
+    "djangorestframework>=3.15.2",
+    "pillow>=10.3.0",
+    "django-cors-headers>=4.4.0",
+    "netifaces>=0.11.0",
+    "djangorestframework-simplejwt>=5.3.1",
+    "django-extensions>=3.2.3",
+    "pydotplus>=2.0.2",
+    "python-dotenv>=1.0.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.scripts]
+pre_dev = "python ./scripts/set_my_ip.py"
+dev = "python manage.py runserver 0.0.0.0:19003"
