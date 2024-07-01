@@ -2,7 +2,6 @@ asgiref==3.8.1
 -e git+https://github.com/Jaotarzan/back-blog.git@0d9ffd127b07146a3735085f9b54b54a0b80b7f0#egg=back_blog
 bcrypt==3.2.0
 blinker==1.4
-brlapi==0.8.3
 certifi==2020.6.20
 chardet==4.0.0
 click==8.1.7
