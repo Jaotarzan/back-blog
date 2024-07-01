@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.2"
-content_hash = "sha256:b490671dcdcabc04374bbaa1a276ab43ae1d2b598a7e373d275f4216ab3555a3"
+content_hash = "sha256:84bdb6527a5c51a7964b1059605fc02a0a840f33b49bab5ab71f296643cde247"
 
 [[package]]
 name = "asgiref"
@@ -522,4 +522,15 @@ dependencies = [
 files = [
     {file = "uvicorn-0.30.1-py3-none-any.whl", hash = "sha256:cd17daa7f3b9d7a24de3617820e634d0933b69eed8e33a516071174427238c81"},
     {file = "uvicorn-0.30.1.tar.gz", hash = "sha256:d46cd8e0fd80240baffbcd9ec1012a712938754afcf81bce56c024c1656aece8"},
+]
+
+[[package]]
+name = "whitenoise"
+version = "6.7.0"
+requires_python = ">=3.8"
+summary = "Radically simplified static file serving for WSGI applications"
+groups = ["default"]
+files = [
+    {file = "whitenoise-6.7.0-py3-none-any.whl", hash = "sha256:a1ae85e01fdc9815d12fa33f17765bc132ed2c54fa76daf9e39e879dd93566f6"},
+    {file = "whitenoise-6.7.0.tar.gz", hash = "sha256:58c7a6cd811e275a6c91af22e96e87da0b1109e9a53bb7464116ef4c963bf636"},
 ]
