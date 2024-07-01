@@ -157,6 +157,7 @@ else:
     MY_IP = os.getenv('MY_IP')
     MEDIA_URL = f'https://{MY_IP}/media/'
 
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 MEDIA_ENDPOINT = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 FILE_UPLOAD_PERMISSIONS = 0o640
