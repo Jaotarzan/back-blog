@@ -1,20 +1,27 @@
+apturl==0.5.2
 asgiref==3.8.1
--e git+https://github.com/Jaotarzan/back-blog.git@4fbe0ff484b5edf716722ef3493ebf367176393f#egg=back_blog
+-e git+https://github.com/Jaotarzan/back-blog.git@0d9ffd127b07146a3735085f9b54b54a0b80b7f0#egg=back_blog
 bcrypt==3.2.0
 blinker==1.4
+Brlapi==0.8.3
 certifi==2020.6.20
 chardet==4.0.0
 click==8.1.7
 colorama==0.4.4
+command-not-found==0.3
 cryptography==3.4.8
+cupshelpers==1.0
 dbus-python==1.2.18
+defer==1.0.6
 distro==1.7.0
+distro-info==1.1+ubuntu0.1
 dj-database-url==2.2.0
 Django==5.0.6
 django-cors-headers==4.4.0
 django-extensions==3.2.3
 djangorestframework==3.15.2
 djangorestframework-simplejwt==5.3.1
+duplicity==0.8.21
 fasteners==0.14.1
 future==0.18.2
 gunicorn==22.0.0
