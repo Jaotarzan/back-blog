@@ -15,6 +15,10 @@ dependencies = [
     "django-extensions>=3.2.3",
     "pydotplus>=2.0.2",
     "python-dotenv>=1.0.1",
+    "dj-database-url>=2.2.0",
+    "uvicorn>=0.30.1",
+    "gunicorn>=22.0.0",
+    "psycopg2-binary>=2.9.9",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
@@ -30,7 +34,3 @@ distribution = true
 [tool.pdm.scripts]
 pre_dev = "python ./scripts/set_my_ip.py"
 dev = "python manage.py runserver 0.0.0.0:19003"
-
-[tool.pdm.autoexport]
-filename = "requirements.txt"
-without-hashes = "true"
